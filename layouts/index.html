@@ -14,7 +14,7 @@
                 <time datetime="{{ .PublishDate }}">{{ i18n "publishDate" . }}</time>  
             </div>
           </div>
-
+          <!--<img src="yashmup-title.png" width="580" height="600">-->
           {{ if ne .Site.Params.hiddenPostSummaryInHomePage true }}
               <div class="summary">{{ $summary | plainify | htmlUnescape }}</div>
           {{ end }}
